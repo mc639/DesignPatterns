@@ -1,34 +1,36 @@
 public class Giraffe extends Creature{
 
     private String name;
+    private int weight;
+    private String sound;
 
     @Override
     public void setName(String newName) {
-
+        name = newName;
     }
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
-    public int setWeight(int newWeight) {
-        return 0;
+    public void setWeight(int newWeight) {
+        weight = newWeight;
     }
 
     @Override
     public int getWeight() {
-        return 0;
+        return weight;
     }
 
     @Override
     public void setSound(String newSound) {
-
+        sound = newSound;
     }
 
     @Override
     public String getSound() {
-        return null;
+        return sound;
     }
 }

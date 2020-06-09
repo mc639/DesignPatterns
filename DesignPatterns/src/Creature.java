@@ -9,7 +9,7 @@ abstract public class Creature{
 	public abstract void setName(String newName);
 	public abstract String getName();
 	
-	public abstract int setWeight(int newWeight);
+	public abstract void setWeight(int newWeight);
 	public abstract int getWeight();
 	
 	public abstract void setSound(String newSound);
